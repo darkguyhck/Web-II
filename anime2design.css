@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #66cdaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+svg {
+  height: 60vmin;
+}
+
+#snow-flakes {
+  animation: fadeInOut 3s infinite ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15%);
+    opacity: 0;
+  }

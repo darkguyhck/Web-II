@@ -1,0 +1,52 @@
+body
+{
+background-color : #C8024D;
+text-align : center;
+font-variant : small-caps;
+font-family : Times;
+font-weight : bold;
+font-style : oblique; 
+}
+
+.style1 
+{
+display: block;
+max-width : 800px;
+margin : 0px auto;
+}
+
+
+
+#Forheading 
+{
+font-style : initial; 
+}
+
+
+#forhead
+{
+color: red;
+background-color: black;
+}
+
+
+.responsive 
+{
+ width: 100%;
+ height: auto;	
+}
+
+img:hover
+ {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+} 
+
+
+.forbutton button 
+{
+font-size : 17px;
+line-height : 22px;
+background-color : #FF4918;	
+}
+

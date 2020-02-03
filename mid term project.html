@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Siddharth Gurung - About</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+
+<style>
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<!-- PRE LOADER -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-wordpress">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- Navigation section  -->
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <a href="index.html" class="navbar-brand">Siddharth Gurung</a>
+          </div>
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" class = "button"> Home </a></li>
+                    <li><a href="about.html" class = "button"> About </a></li>
+					<li><a href="for_shop.html" class = "button"> E-Shop </a></li>
+                    <li><a href="anime2.html" class = "button"> My Anime1 </a></li>
+					<li><a href="map test.html" class = "button"> My Map </a></li>
+					<li><a href="scores.html" class = "button"> Score </a></li>
+					<li><a href="gallery.html" class = "button"> Gallery </a></li>
+					<li class="active"> <a href="mid term project.html" class = "button"> JSWORLD </a></li>
+                    <li><a href="contact.html" class = "button"> Contact </a></li>
+                </ul>
+          </div>
+
+  </div>
+</div>
+
+
+
+<!-- Home Section -->
+
+<section id="home" class="main-jsworld parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1> My JsWorld </h1>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+ <!-- JsWorld Section -->
+
+<section id="jsworld">
+     <div class="container">
+          <div class="row">
+ 
+ </div>
+ </div>
+ </section>
+
+
+
+
+<form>
+
+<div class = 'style1'>
+
+<div id = "Forheading">
+<h3> 1. Please input your Lastname. </h3>
+</div>
+<input type="text" id="txtvalue"  /> 
+<button onclick="showName()"> Click </button>
+
+
+
+<div id = "Forheading">
+<h3> 2. Please select your Gender. </h3>
+
+<div>
+     <select>
+	 <option> Male </option>
+	 <option> Female </option>
+     </select>
+</div>
+
+<!--
+
+<div id = "Forheading">
+-->
+
+    
+
+<form>
+<h3> 3. Please select the Languages. </h3>
+<input type = "checkbox"  name ="language" value = "chinese" onClick="printCheck()" > Chinese  </br>
+<input type = "checkbox"  name ="language" value = "japanese" onClick="printCheck()" > Japanese </br>
+<input type = "checkbox"  name ="language" value = "english" onClick="printCheck()" > English  </br>
+<input type = "checkbox"  name ="language" value = "vietnamese" onClick="printCheck()" > Vietnamese </br>
+<input type="button" onclick='printCheck()' name="language" value ="Languages you have Learned"/><br>
+
+</form>
+
+
+
+<br/>
+
+<div>
+<h3> 4.Courses provided By KCGI. </h3
+
+<div>
+<select id="course" onchange ="courseShow()">
+   <option value = "WebProgramming II"> WebProgramming II </option>
+   <option value = "Database"> Database </option>
+   <option value = "LeaderShip Theory"> LeaderShip Theory </option>
+   <option value = "International Accounting"> International Accounting </option>
+   <option value = "Information Security"> Information Security </option>
+   <option value = "Advanced Networking"> Advanced Networking </option>
+</select>
+
+<input type="button" value="Course you have Selected are" onClick="courseShow()"></br>
+
+</div>
+</div>
+
+<br />
+
+<div>
+<h3> 5.Mouseover and Mouseout </h3>
+
+ <div> 
+ <img src="dog1.jpg" onmouseover="this.src='dog2.jpg'" onmouseout="this.src='dog3.jpg'">
+ </img>
+ </div>
+
+</div>
+
+<br/>
+
+<div>
+ <h3> 6. Move Window </h3>
+
+  <div>
+  <input type="button" value="open the window" onclick="openWindow()" />
+  <input type="button" value="close the window" onclick="closeWindow()"/>
+  </div>
+
+</div>
+
+<br/>
+
+<div>
+ <h3> 7. Resize a Window </h3>
+ 
+ <div>
+  
+ <h3> Move the window </h3>
+ 
+ <input type="button" value="window.moveBy(30, 10)" onclick="window.moveBy(30, 10)"/>
+  <br/>
+  <input type="button" value="window.moveTo(70, 50)" onclick="window.moveTo(70, 50)"/>
+  <br/>
+ 
+ <h3> Change the size of window </h3>
+ 
+<button onclick = "create()" > Open a new window </button>
+<button onclick = "resize()" > Resize the window </button>    
+	
+ <h3> Scroll the window </h3>
+
+ <input type="button" value="window.scrollBy(0, -50)" onclick="window.scrollBy(0, -50)"/>
+  <br />
+  <input type="button" value="window.scrollTo(0, 0)" onclick="window.scrollTo(0, 0)"/>
+  <br/>
+
+ </div>
+ 
+</div> 
+
+
+<br/>
+
+
+<div>
+<h3> 8. Change Picture   </h3>
+
+ 
+
+  <!--
+  <button style="background: url(gym2.jpg)"  />
+  -->
+  
+  
+ <!--
+ <input type="button" >
+ <img src = "gym2.jpg"> 
+ </button>
+ -->
+ 
+ 
+ <!--
+ <input type="button" >
+ <img src = "gym3.jpg"> 
+ </button>
+ -->
+ 
+ 
+ <!--
+ <button onclick="myFunction()"> <img src="body1.jpg"> </button>
+ -->
+ 
+ 
+  
+    <img id="loadingImage1" src="body1.jpg" style="visibility:hidden"/>
+    <input type="button" value="Image 1" onclick="showImage();"/>
+ 
+
+ 
+ <!--
+ <button onclick="myFunction()"> <img src="gym2.jpg"> </button>
+  -->
+ 
+ 
+    <img id="loadingImage2" src="gym2.jpg" style="visibility:hidden"/>
+	<input type="button" value="Image 2" onclick="showImage1();"/>
+ 
+
+ 
+ 
+ <!--
+ <button onclick="myFunction()"> <img src="gym3.jpg"> </button>
+ -->
+ 
+  
+    <img id="loadingImage3" src="gym3.jpg" style="visibility:hidden"/>
+    <input type="button" value="Image 3" onclick="showImage2();"/>
+
+<br/>
+<br/>
+
+
+<!--<div class = "forbutton"> -->
+
+<input type ="submit" value="Submit"/>
+<input type ="reset" value = "Reset"/> 
+</div>
+
+
+
+
+</form>
+
+
+
+<script>
+
+
+
+
+
+function myfunction() {
+}
+
+window.addEventListener("resize", resize());
+
+  var newWindow;
+   function create(){
+      newWindow =window.open('https://www.ikea.com/','IKEA','width=50','height=80');
+   }
+   function resize(){
+      newWindow.resizeTo(200, 200);
+      newWindow.focus();
+   }
+   
+
+
+function showName()
+{
+
+ var name = document.getElementById('txtvalue').value;
+ alert("Hello Mr. "+ name);
+
+}
+
+
+
+
+
+function printCheck(){
+		var items=document.getElementsByName('language');
+		var selectedItems="";
+		for(var i=0; i<items.length; i++){
+			if(items[i].type=='checkbox' && items[i].checked==true)
+				selectedItems+=items[i].value+"\n";
+		}
+		alert(selectedItems);
+
+}
+
+
+
+
+
+
+function courseShow() {
+    d = document.getElementById("course").value;
+    alert(d);
+}
+
+
+
+
+ 
+  var for_action = null;
+	
+	function openWindow()
+	{
+		for_action = open("https://www.nike.com/ ", " NIKE ", "height=200" , "width=400px");
+	}
+	
+	function closeWindow()
+	{
+		if(for_action){
+			for_action.close();
+			for_action = null;
+		}
+	}
+
+	
+	
+	
+	
+	  function showImage(){
+        document.getElementById('loadingImage1').style.visibility="visible";
+    }
+
+	
+	
+	  function showImage1(){
+        document.getElementById('loadingImage2').style.visibility="visible";
+    }
+
+	
+	
+	  function showImage2(){
+        document.getElementById('loadingImage3').style.visibility="visible";
+    }
+
+	
+	
+	
+	
+</script>
+
+
+
+
+
+
+	
+<!-- Footer Section -->
+
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-5 col-md-offset-1 col-sm-6">
+                    <h3>MY Website</h3>
+                    <p> This is my website for my blog. I disclose my life, my perspectives, my personally identifiable information, my leisure, etc. 
+					You can also get in touch with me here either through e-mail, social media or contact number.
+					My posts can be read free of charge. </p>
+                    <div class="footer-copyright">
+                         <p> Copyright &copy; 2019 Dark BoX - Design By: Siddharth Gurung </p>
+                    </div>
+               </div>
+
+               <div class="col-md-4 col-md-offset-1 col-sm-6">
+                    <h3>Contact Me</h3>
+                    <p><i class="fa fa-globe"></i> Kyoto, Japan </p>
+                    <p><i class="fa fa-phone"></i> +81 08062243677 </p>
+                    <p><i class="fa fa-save"></i> siddharthgurung32@gmail.com </p>
+               </div>
+
+               <div class="clearfix col-md-12 col-sm-12">
+                    <hr>
+               </div>
+
+               <div class="col-md-12 col-sm-12">
+                    <ul class="social-icon">
+                         <li><a href="https://www.facebook.com/darky.guyes.9" class="fa fa-facebook"></a></li>
+                         <li><a href="https://twitter.com/neo0123Q" class="fa fa-twitter"></a></li>
+                         <li><a href="https://aboutme.google.com/u/0/?referer=gplus" class="fa fa-google-plus"></a></li>
+                         <li><a href="https://dribbble.com/darkuy007" class="fa fa-dribbble"></a></li>
+                         <li><a href="https://www.linkedin.com/in/siddharth-g-37899497/" class="fa fa-linkedin"></a></li>
+                    </ul>
+               </div>
+               
+          </div>
+     </div>
+</footer>
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
